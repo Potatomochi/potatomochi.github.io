@@ -12,9 +12,7 @@ body{
     box-sizing: border-box;
     position: relative;
 }
-section{
-    
-}
+
 /* Navbar */
 
 .navbar{
@@ -131,9 +129,10 @@ section{
     height: 100vh;
     left: 0px;
     top: 0%;
-    background: url(file:///C:/Site%20V2/Images/IMG-0553.JPG), no-repeat center center fixed;
+
     background-size: cover;
     background-position: 10%;
+    background: url(https://i.pinimg.com/originals/8a/21/7b/8a217b705cda9a53a8d7fba4130f144d.jpg), no-repeat center center fixed;
     
 }
 
