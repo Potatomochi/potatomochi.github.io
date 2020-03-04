@@ -40,7 +40,7 @@ body{
     
 }
 .nav-links a{
-    color: #FFF;
+
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
@@ -50,6 +50,11 @@ body{
 .nav-links li{
     list-style: none;
 }
+.nav-links > a:hover{
+  color: #F76262;
+
+}
+
 .burger {
     padding-top: 23px;
     display: none;
@@ -63,6 +68,10 @@ body{
     margin:5px;
     transition: all ease-in 0.3s;
 }
+
+
+
+
 
 @media only screen and (max-width:768px){
     body{
