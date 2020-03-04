@@ -25,8 +25,9 @@ $(document).ready(function(){
     }
     navSlide();
 
+
     $('#portfolio').mouseenter(function(){
-        $('.text').addClass("moggle");
+        $('.text').addClass("animated slideInLeft");
     });
     $('#portfolio').mouseleave(function(){
         $('.text').removeClass("moggle");
@@ -36,6 +37,9 @@ $(document).ready(function(){
 
 
 
+    navLinks.hover(function(){
+        navLinks.addClass("navhover")
+    });
 
 
 });
