@@ -10,7 +10,8 @@
     <link href="style.css" type="text/css" rel="stylesheet"></link>  
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <script src="app.js"></script>
+    <script src="/src/app.js"></script>
+    <script src="/src/js/snap-scroll.js"></script>
     
     <script src="https://kit.fontawesome.com/79b8f37cd3.js" crossorigin="anonymous"></script>
 </head>
@@ -44,10 +45,6 @@ $('.burger, .overlay').click(function(){
 </script>
 
 
-
-
-
-        <script src="app.js"></script>
             <div class="rectangle2"></div>
                     <div class="rectangle5"></div>
                             <div class="rectangle6">
@@ -64,60 +61,27 @@ $('.burger, .overlay').click(function(){
     
  
     <section id="portfolio">
-        <div class="text">
-            <h1 >Portfolio.</h1>
+      
+      <div class="content">
+        <a href="project.html" class="port_href">
+        <div class="grid">
+          
+            <div class="grid__item pos-1"><div class="grid__item-img" style="background-image:url(Images/Generationshome.png);"></div></div>
+            <div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(Images/Creditcardform.png);"></div></div>
+            <div class="grid__item pos-3"><div class="grid__item-img" style="background-image:url(Images/tgrlanding.png);"></div></div>
+            <div class="grid__item pos-4"><div class="grid__item-img" style="background-image:url(Images/Generations.png);"></div></div>
+            <div class="grid__item pos-5"><div class="grid__item-img" style="background-image:url(Images/youtubeClone.png);"></div></div>
+          
         </div>
-        <div class="container">
+        <h2 class="content__title no-select">
+					<span>My</span>
+					<span class="content__title-sub">Works</span>
+        </h2>
+        </a>
+    </div>
+      
 
-          <div class="card">
-            <div class="face face1">
-              <div class="content">
-                <img src="Images/tqe.jpg"  class="card-img"></img>
-                <h3>The Quantum Room</h3>
-              </div>
-            </div>
-            <div class="face face2">
-              <div class="content">
-              <p>Web Developer & Web Designer on a wordpress based site.</p> 
-              <a href="project.html">Read More</a> 
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="face face1">
-              <div class="content">
-                <img src="Images/Creditcardform.png"  class="card-img" style="height: 1080px;"></img>
-                <h3>Credit Card Form</h3>
-              </div>
-            </div>
-            <div class="face face2">
-              <div class="content">
-              <p>Created a Credit Card Form that responds to user input simultaneously and dynamically.</p> 
-              <a href="project.html">Read More</a> 
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="face face1">
-              <div class="content">
-                <img src="Images/Generations home.png"  class="card-img" style="height: 1080px;"></img>
-                <h3>Generations</h3>
-              </div>
-            </div>
-            <div class="face face2">
-              <div class="content">
-              <p>A coopoerative project with 2 other colleagues for a non profit organization based in Singapore.</p> 
-              <a href="project.html">Read More</a> 
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-        </section>
+    </section>
     <section id="contact">
 
         <div class="box-creative">
@@ -137,6 +101,7 @@ $('.burger, .overlay').click(function(){
             <ul>
               <li><a href="https://www.twitch.tv/triplefundusty"><i class="fab fa-twitch"></i></a></li>
               <li><a href="https://www.instagram.com/potatomochi/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.instagram.com/potatomochi/"><i class="fab fa-github"></i></a></li>
             </ul>
             </div>
         </div>
